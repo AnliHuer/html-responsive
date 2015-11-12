@@ -1,0 +1,113 @@
+body{
+  width: 80%;
+  height:100%;
+  margin: 0 auto;
+  background-color: rgb(231, 231, 231);
+  color: #8e1232;
+}
+
+.header{
+  float: left;
+  width: 31%;
+}
+
+.info, .main, .footer{
+  float: right;
+  width: 65%;
+}
+
+ul li{
+  list-style: none;
+}
+
+.logo img{
+  margin: 5%;
+  width: 90%;
+  height: auto;
+  max-width: 100%;
+  border-radius:50%;
+}
+
+nav{
+  margin: auto;
+  font-size: 80%;
+}
+
+.header ul{
+  width: 80%;
+  padding: 0%;
+  margin: auto;
+}
+
+#nav-1{
+  border-left-style: inset;
+  border-top-style: inset;
+}
+
+#nav-3, #nav-2, #nav-4{
+  border-right-style: dotted;
+  border-left-style: dotted;
+  border-color: #9a9a9a;
+}
+
+#nav-5{
+  border-right-style: outset;
+  border-bottom-style: outset;
+}
+
+.nav{
+  margin:15% auto;
+  text-align: center;
+}
+
+.small-hr{
+   border-style: hidden;
+}
+
+.info{
+  color: #222;
+}
+
+.info .info-title{
+  text-align: center;
+  font-size: 100%;
+}
+
+.info .info-content{
+  font-size: 80%;
+}
+
+.main ul{
+  margin: 5% auto;
+  padding: 0%;
+  text-align: center;
+}
+
+.main .theme{
+  border-style: dashed;
+  border-color: #9a9a9a;
+}
+
+.main ul li{
+  display: inline-block;
+  width: 40%;
+  height: 100%;
+  margin: 3%;
+  text-align: center;
+}
+
+.main img{
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  border-radius: 10%;
+}
+
+.main .img-text{
+  text-align: center;
+  font-size: 80%;
+}
+
+.footer .site-info{
+  text-align: center;
+}
